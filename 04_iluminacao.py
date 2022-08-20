@@ -54,11 +54,11 @@ def display():
     desenha()
 
 def InitGL(width, height):
-    mat_ambient = (0.4, 0.0, 0.0, 1.0)
+    mat_ambient = (0.8, 0.0, 0.0, 1.0)
     mat_diffuse = (1.0, 0.0, 0.0, 1.0)
     mat_specular = (1.0, 0.5, 0.5, 1.0)
-    mat_shininess = (80,)
-    light_position = (10, 0, 0)
+    mat_shininess = (10,)
+    light_position = (1, 0, 0)
     glClearColor(0.0,0.0,0.0,0.0)
     glShadeModel(GL_SMOOTH)
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient)
